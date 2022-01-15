@@ -160,11 +160,7 @@ heading area
 .see-more>p{
     margin-right: 10px;
 }
-/* annimation */
-.frame:hover .image{
-    transform: scale(1.5);
-    transition: 1s ease-out;
-}
+
 
 /* wanna work with us */
 
@@ -236,7 +232,7 @@ footer>p{
 
 @media only screen and (max-width:688px){
     body{
-        border: 1px solid rgba(65, 64, 64, 0.63);
+        border: 2px solid rgba(65, 64, 64, 0.63);
     }
     header{
         width: 100%;
@@ -255,9 +251,6 @@ footer>p{
     .heading-area{
         width: 100%;
         flex-direction:column-reverse;
-        /* display: flex; */
-        /* justify-content: space-between; */
-        /* align-items: center; */
     }
     .text-area h1{
         font-size: 28px;
@@ -272,7 +265,7 @@ footer>p{
         width: 100%;
     }
     .sponsor{
-        width: 350px
+        width: 330px
     }
     .sponsor>img{
         width:15%;
