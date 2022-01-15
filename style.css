@@ -21,6 +21,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
+/* heading area */
 .heading-area{
     width: 1200px;
     display: flex;
@@ -50,6 +51,10 @@ main{
     justify-content: center;
     border-radius: 41px;
 }
+.button:hover .fas{
+    transform: translateX(20px);
+    transition: .5s ease-in-out;
+}
 .button p{
     margin-right: 8px;
 }
@@ -63,12 +68,16 @@ main{
     right: 33px;
     top: 30px;
 }
+.image-area:hover .camera{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
 
 /* sponsor section */
 
 .sponsor{
     width: 1110px;
-    border: 1px solid rgba(128, 128, 128, 0.342);
+    border: 1px solid rgba(207, 202, 202, 0.342);
     height: 110px;
     margin-top: 110px;
     display: flex;
@@ -107,7 +116,7 @@ main{
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
+    border-radius: 5px;
 }
 .star-icon{
     display: flex;
@@ -145,6 +154,11 @@ border-radius: 5px;
 }
 .see-more>p{
     margin-right: 10px;
+}
+/* annimation */
+.frame:hover .image{
+    transform: scale(1.5);
+    transition: 1s ease-out;
 }
 
 /* wanna work with us */
