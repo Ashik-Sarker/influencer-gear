@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 *{
     margin:0px;
@@ -10,9 +12,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/*------------ 
+/*--------------
 header area 
---------------*/
+-----------------*/
 
 header{
     width: 1200px;
@@ -23,10 +25,14 @@ header{
     display: flex;
     justify-content:flex-start;
 }
+.heading-text>h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
 
-/*---------- 
+/*--------------- 
 main area 
-------------*/
+----------------*/
 
 main{
     display: flex;
@@ -34,7 +40,7 @@ main{
     align-items: center;
 }
 
-/* -------------
+/* --------------
 heading area 
 -----------------*/
 
@@ -86,13 +92,14 @@ heading area
     transition: transform 1s;
 }
 
-/*--------------- 
+/*---------------- 
 sponsor section 
------------------*/
+------------------*/
 
 .sponsor{
     width: 1110px;
-    border: 1px solid rgba(207, 202, 202, 0.342);
+    border: 2px solid;
+    border-image: linear-gradient(black,white,black,white,black) 60;
     height: 110px;
     margin-top: 110px;
     display: flex;
@@ -245,9 +252,9 @@ footer>p{
     align-items: center;
 }
 
-/*----------------
+/*------------------
 Mobile screen size 
-------------------*/
+--------------------*/
 
 @media only screen and (max-width:688px){
     body{
@@ -297,9 +304,9 @@ Mobile screen size
     }
 }
 
-/*--------------- 
+/*------------------ 
 Tablet size 
-----------------*/
+--------------------*/
 
 @media only screen and (min-width:689px) and (max-width:992px){
     body{
